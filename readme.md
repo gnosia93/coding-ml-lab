@@ -22,7 +22,7 @@ coding-ml-lab/
 
 * Transformer 기본 — Attention 원리, multi-head, encoder
 * 미니 GPT 구현 — Karpathy 스타일로 문자 생성기. 이게 트랜스포머 완전 이해 마일스톤
-*   (옵션) ViT — Transformer 를 이미지에 적용. CNN 과 비교되는 재미
+*   (옵션) ViT — Transformer 를 이미지에 적용.
 * Generative: Autoencoder → VAE — 생성 모델 입문
 * (여유되면) Diffusion 
 
