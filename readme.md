@@ -40,3 +40,4 @@ coding-ml-lab/
 
 * https://www.youtube.com/playlist?list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz
 * https://www.youtube.com/@mildlyoverfitted
+* [Coding a Multimodal (Vision) Language Model from scratch](https://www.youtube.com/watch?v=vAmKB7iPkWw)
