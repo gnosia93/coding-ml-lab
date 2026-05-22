@@ -41,12 +41,38 @@ dependencies = [
 ]
 ```
 
+## hello 그래프 작성 ##
+```
+from langgraph.graph import StateGraph, MessagesState, START, END
+
+def mock_llm(state: MessagesState):
+    return {"messages": [{"role": "ai", "content": "hello world"}]}
+
+graph = StateGraph(MessagesState)
+graph.add_node(mock_llm)
+graph.add_edge(START, "mock_llm")
+graph.add_edge("mock_llm", END)
+graph = graph.compile()
+
+result = graph.invoke(
+    { "message": [ 
+        {"role": "user", "content": "hi there"}
+    ]}
+)
+
+import pprint
+pprint.pprint(result)
+```
+
 
 ## 프로젝트 실행 ##
 ```
 uv run main.py
 ```
-
+[결과]
+```
+{'messages': [AIMessage(content='hello world', additional_kwargs={}, response_metadata={}, id='dfd3d9ab-c850-4fee-ad50-b7735df289e1', tool_calls=[], invalid_tool_calls=[])]}
+```
 
 
 ## 레퍼런스 ##
