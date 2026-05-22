@@ -40,6 +40,14 @@ dependencies = [
 ]
 ```
 
+
+## 프로젝트 실행 ##
+```
+uv run main.py
+```
+
+
+
 ## 레퍼런스 ##
 
 * https://docs.langchain.com/oss/python/langgraph/overview
