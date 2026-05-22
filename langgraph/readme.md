@@ -6,6 +6,26 @@ aws bedrock list-foundation-models \
   --query "modelSummaries[*].[modelId, modelName, responseStreamingSupported]" \
   --output table
 ```
+[결과]
+```
+-----------------------------------------------------------------------------------------
+|                                 ListFoundationModels                                  |
++-----------------------------------------------+---------------------------------------+
+|  google.gemma-3-4b-it                         |  Gemma 3 4B IT                        |
+|  nvidia.nemotron-nano-12b-v2                  |  NVIDIA Nemotron Nano 12B v2 VL BF16  |
+|  anthropic.claude-sonnet-4-20250514-v1:0      |  Claude Sonnet 4                      |
+|  anthropic.claude-opus-4-7                    |  Claude Opus 4.7                      |
+|  anthropic.claude-haiku-4-5-20251001-v1:0     |  Claude Haiku 4.5                     |
+|  qwen.qwen3-235b-a22b-2507-v1:0               |  Qwen3 235B A22B 2507                 |
+|  openai.gpt-oss-safeguard-120b                |  GPT OSS Safeguard 120B               |
+|  google.gemma-3-27b-it                        |  Gemma 3 27B PT                       |
+|  moonshotai.kimi-k2.5                         |  Kimi K2.5                            |
+|  openai.gpt-oss-120b-1:0                      |  gpt-oss-120b                         |
+|  anthropic.claude-sonnet-4-5-20250929-v1:0    |  Claude Sonnet 4.5                    |
+|  qwen.qwen3-vl-235b-a22b                      |  Qwen3 VL 235B A22B                   |
+|  qwen.qwen3-next-80b-a3b                      |  Qwen3 Next 80B A3B                   |
+|  deepseek.v3.2                                |  DeepSeek V3.2                        |
+```
 
 다음 명령어를 이용하여 텍스트 모델만 조회할 수 있다. 
 ```
