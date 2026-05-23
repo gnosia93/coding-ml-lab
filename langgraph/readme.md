@@ -35,6 +35,14 @@ aws bedrock list-foundation-models \
   --output table
 ```
 
+```
+aws bedrock-runtime converse \
+  --model-id anthropic.claude-sonnet-4-20250514-v1:0 \
+  --messages '[{"role": "user", "content": [{"text": "안녕? 반가워. 너는 누구니?"}]}]' \
+  --region 
+```
+
+
 
 ## 프로젝트 생성 ##
 
