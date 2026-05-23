@@ -12,7 +12,7 @@ class ToolCall(TypedDict):
 ```
 
 ### 2. 필드별 상세 명세 및 예시 ###
-이해를 돕기 위해 LLM이 날씨 정보를 물어봤을 때 생성하는 실제 ToolCall 데이터 스펙을 기준으로 뜯어보겠습니다.
+LLM 이 생성하는 ToolCall 데이터이다.
 
 ```
 {
