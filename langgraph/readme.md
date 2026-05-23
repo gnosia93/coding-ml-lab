@@ -55,6 +55,15 @@ aws bedrock-runtime converse \
   --region ${AWS_REGION}
 ```
 
+```
+aws bedrock list-foundation-models \
+  --region ap-northeast-1 \
+  --by-provider anthropic \
+  --query "modelSummaries[?modelLifecycle.status=='ACTIVE'].modelId" \
+  --output table
+```
+
+
 
 
 ## 프로젝트 생성 ##
