@@ -179,6 +179,11 @@ uv run main.py
 {'messages': [AIMessage(content='hello world', additional_kwargs={}, response_metadata={}, id='dfd3d9ab-c850-4fee-ad50-b7735df289e1', tool_calls=[], invalid_tool_calls=[])]}
 ```
 
+### 5. tool call ###
+
+
+
+
 
 ## 레퍼런스 ##
 
