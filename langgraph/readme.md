@@ -75,7 +75,7 @@ aws bedrock list-foundation-models \
 global prefix 를 사용하는 이유는 전 세계 여러 리전(Region)의 인프라를 스마트하게 분산 활용하여, API 호출 실패율을 낮추고 더 빠른 속도를 확보하기 위해서 이다.
 ```
 aws bedrock-runtime converse \
-  --model-id global.anthropic.claude-sonnet-4-6 \
+  --model-id `global`.anthropic.claude-sonnet-4-6 \
   --messages '[{"role": "user", "content": [{"text": "안녕? 반가워. 너는 누구니?"}]}]' \
   --region {AWS_REGION}
 ```
