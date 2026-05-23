@@ -193,30 +193,10 @@ uv run tools.py
 Add 3 and 4.
 ================================== Ai Message ==================================
 
-[{'type': 'tool_use', 'name': 'add', 'input': {'a': 3, 'b': 4}, 'id': 'tooluse_y8wF0xEe8FqplUwg7tiuFG'}]
+[{'type': 'tool_use', 'name': 'add', 'input': {'a': 3, 'b': 4}, 'id': 'tooluse_agMx87FXqJvPrnZcSrsuy8'}]
 Tool Calls:
-  add (tooluse_y8wF0xEe8FqplUwg7tiuFG)
- Call ID: tooluse_y8wF0xEe8FqplUwg7tiuFG
-  Args:
-    a: 3
-    b: 4
-================================= Tool Message =================================
-
-7
-================================== Ai Message ==================================
-
-The sum of 3 and 4 is **7**.
-automake@mini hello % uv run tools.py
-<IPython.core.display.Image object>
-================================ Human Message =================================
-
-Add 3 and 4.
-================================== Ai Message ==================================
-
-[{'type': 'tool_use', 'name': 'add', 'input': {'a': 3, 'b': 4}, 'id': 'tooluse_dMSqm3YI2oY2D8DYdEpzoj'}]
-Tool Calls:
-  add (tooluse_dMSqm3YI2oY2D8DYdEpzoj)
- Call ID: tooluse_dMSqm3YI2oY2D8DYdEpzoj
+  add (tooluse_agMx87FXqJvPrnZcSrsuy8)
+ Call ID: tooluse_agMx87FXqJvPrnZcSrsuy8
   Args:
     a: 3
     b: 4
